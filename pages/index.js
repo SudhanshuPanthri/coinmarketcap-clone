@@ -1,14 +1,14 @@
 import Head from "next/head";
 import Image from "next/image";
 import Header from "../components/Header/Header";
+import Trending from "../components/Trending/Trending";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div>
+    <div className="parentContainer">
       <Header />
-      {/* header  */}
-      {/* trending  */}
+      <Trending />
       {/* table with data  */}
     </div>
   );
